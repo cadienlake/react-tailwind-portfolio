@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 function About() {
   return (
+    <div class="animate-enter">
+    <h1 class="text-biggie lowercase -indent-4 ml-4 text-center">About Me</h1>
     <div className="p-[3vw] flex flex-col items-center">
       <div className="m-[3vh]">
         <h2 className="text-center">
@@ -19,6 +21,7 @@ function About() {
         You may have heard of the band I've been in since 2010, <Link to="https://www.twinpeaksdudes.com">Twin Peaks.</Link> I'm currently working on a solo record, and hoping to share it this year.</p>
       <p> I'm also a burgeoning web developer, and will be recieving my certificate in Full Stack Development from Northwestern University in April 2023. Check in on this website for updates!</p>
     </div>
+  </div>
   );
 }
 
