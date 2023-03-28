@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Home from "./components/Home";
+import Home from "./components/pages/Home";
 import Footer from "./components/Footer";
 import About from "./components/pages/About";
 import CodingProjects from "./components/pages/CodingProjects";

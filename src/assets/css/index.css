@@ -75,3 +75,85 @@ body {
 		display: none;
 	}
 }
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.container:hover .github-logo {
+	opacity: 1;
+}
+
+.container:hover .project-image {
+	filter: blur(1px) brightness(60%) opacity(0.5);
+}
+
+.container:hover .project-title {
+	opacity: 1;
+}
+
+
+.container:hover .website-logo {
+	opacity: 1;
+}
+
+.github-logo {
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+.github-logo:hover {
+	opacity: 1;
+}
+
+
+.project-image {
+	position: relative;
+	width: 425px;
+	height: 315px;
+	border: 3px solid #fefbec;
+	margin: 10px;
+}
+
+.project-image:hover {
+	filter: blur(1px) brightness(60%);
+}
+
+.project-title {
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+.project-title:hover {
+	opacity: 1;
+}
+
+.project-title:hover ~ .project-image {
+	filter: blur(1px) brightness(60%);
+}
+
+.website-logo {
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+
+.website-logo:hover {
+	opacity: 1;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import Project from ".././Project";
+import Project from "../codingProjectsComponents/Project";
 import bookShare from "./../../assets/images/bookShare.gif";
 import cocktailSearch from "./../../assets/images/cocktailSearch.png";
 import ecommerceBackend from "./../../assets/images/ecommerceBackend.png";
@@ -11,8 +11,8 @@ const CodingProjects = () => {
   return (
     <section id="portfolio" className="p-10">
       <div className="animate-enter">
-        <h1 class="text-biggie lowercase -indent-4 ml-4 text-center">Coding Projects</h1>
-        <div className="flex flex-wrap justify-center">
+        <h1 class="text-biggie lowercase -indent-4 text-center">Coding Projects</h1>
+        <div className="flex flex-wrap justify-center m-[3vh] sm: mr-[10vw]">
           <Project link="https://bookclub-project-two.herokuapp.com/" imgLink={bookShare} githubLink="https://github.com/Y-M-C-J/bookclub-project-two" projectTitle="BookShare" />
           <Project link="https://dork-diaries.github.io/API-team-project/" imgLink={cocktailSearch} githubLink="https://github.com/dork-diaries/API-team-project" projectTitle="Cocktails & Dreams" />
           <Project link="https://tech-blog-clj.herokuapp.com/" imgLink={techBlog} githubLink="https://github.com/cadienlake/tech_blog_clj" projectTitle="The TechBlog" />
