@@ -17,9 +17,9 @@ function Header() {
               Cadien <span className="font-semibold">Lake</span> Jack Henry James
             </h1>
           </Link>
-          {location.pathname === "/" ? "" : currentPage}
+          {location.pathname === "/react-tailwind-portfolio/" ? "" : currentPage}
         </div>
-        <div className="flex items-center pl-[10vw] opacity-60">{location.pathname !== "/" ? "" : <h1 className="lowercase relative top-px justify-self-end">Songwriter, Producer, Graphic Designer & Web Developer</h1>}</div>
+        <div className="flex items-center pl-[10vw] opacity-60">{location.pathname !== "/react-tailwind-portfolio/" ? "" : <h1 className="lowercase relative top-px justify-self-end">Songwriter, Producer, Graphic Designer & Web Developer</h1>}</div>
       </div>
     </div>
   );
