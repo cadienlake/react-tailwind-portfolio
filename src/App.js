@@ -7,14 +7,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router >
       <div className="min-h-screen flex flex-col">
         <Header />
         <div className="grow flex flex-col justify-evenly">
           <Routes>
-            <Route path="/react-tailwind-portfolio/" element={<Home />} />
-            <Route path="/react-tailwind-portfolio/about" element={<About />} />
-            <Route path="react-tailwind-portfolio//projects" element={<CodingProjects />} />
+            <Route exact path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<CodingProjects />} />
           </Routes>
         </div>
         <Footer />

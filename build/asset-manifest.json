@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-tailwind-portfolio/static/css/main.ef18cf88.css",
-    "main.js": "/react-tailwind-portfolio/static/js/main.0daba223.js",
+    "main.js": "/react-tailwind-portfolio/static/js/main.d76a0f9a.js",
     "static/media/portrait.jpg": "/react-tailwind-portfolio/static/media/portrait.092fad2b7677d0245eb9.jpg",
     "static/media/bookShare.gif": "/react-tailwind-portfolio/static/media/bookShare.af208880ddd00033eff3.gif",
     "static/media/portrait2.jpg": "/react-tailwind-portfolio/static/media/portrait2.2a614caf58bc1b133b05.jpg",
@@ -13,10 +13,10 @@
     "static/media/tape-machine.svg": "/react-tailwind-portfolio/static/media/tape-machine.19f836fe73cb81eb32d4da359842424e.svg",
     "index.html": "/react-tailwind-portfolio/index.html",
     "main.ef18cf88.css.map": "/react-tailwind-portfolio/static/css/main.ef18cf88.css.map",
-    "main.0daba223.js.map": "/react-tailwind-portfolio/static/js/main.0daba223.js.map"
+    "main.d76a0f9a.js.map": "/react-tailwind-portfolio/static/js/main.d76a0f9a.js.map"
   },
   "entrypoints": [
     "static/css/main.ef18cf88.css",
-    "static/js/main.0daba223.js"
+    "static/js/main.d76a0f9a.js"
   ]
 }
