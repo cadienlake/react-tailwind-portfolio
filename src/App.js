@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-tailwind-portfolio">
       <div className="min-h-screen flex flex-col">
         <Header />
         <div className="grow flex flex-col justify-evenly">
