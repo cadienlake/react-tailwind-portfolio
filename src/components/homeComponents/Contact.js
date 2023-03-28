@@ -1,4 +1,5 @@
 import React from "react";
+// Import icons we need for this component.
 import { Mail, GitHub, Instagram } from "react-feather";
 
 function Contact() {
@@ -7,6 +8,7 @@ function Contact() {
         <h3 class="h3">Contact</h3>
         <div className="flex gap-2 items-center">
           <span>
+            {/* Render each icon with hover conditions so a user knows they are hovering and ready to click */}
             <a href="mailto:cadienlake@gmail.com">
               <Mail className="hover:fill-red-500 hover:rotate-12" />
             </a>

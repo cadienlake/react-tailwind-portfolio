@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
+    // Define the basename so that the app will work on GitHub Pages.
     <Router basename="/react-tailwind-portfolio">
       <div className="min-h-screen flex flex-col">
         <Header />

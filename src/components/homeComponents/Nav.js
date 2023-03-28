@@ -6,6 +6,7 @@ function Nav() {
     <nav>
       <div className="text-biggie lowercase -indent-4 ml-4 px-[5vw] my-[5vh] leading-tight">
         <ul className="space-y-3">
+          {/* Hover condition indents the nav link when hovering */}
           <li className="hover:indent-1">
             <Link to="/about">About Me</Link>
           </li>
@@ -15,6 +16,7 @@ function Nav() {
           <li className="hover:indent-1">
             <Link to="https://www.discogs.com/artist/4364774-Cadien-Lake-James">Discography</Link>
           </li>
+          {/* Links to nothing. DIsplays the nav link with a cross through and defines as in progress */}
           <li className="flex flex-initial items-center space-x-8">
             <Link to="#" className="line-through decoration-red-500">
               Graphic Design

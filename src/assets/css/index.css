@@ -3,16 +3,19 @@
 @import "tailwindcss/utilities"; 
 @import url("https://use.typekit.net/ixf7tfb.css");
 
+/* Set the site color */
 body {
     background-color: lightblue;
 }
 
+/* Sets conditions for different tags */
 @layer base {
 	
 	p {
 		@apply max-w-prose leading-relaxed my-1;
 	}
 	
+	/* Allows margin between p tags but not at the top or bottom of a sequence of p tags */
 	p:first-child {
 		@apply mt-0;
 	}
@@ -30,6 +33,7 @@ body {
 		@apply mt-0;
 	}
 	
+	/* apply link styling for a tags */
 	p a {
 		@apply underline decoration-sky-500 decoration-2 underline-offset-2;
 	}
@@ -43,6 +47,7 @@ body {
 	}
 }
 
+/* Not yet in use, but for upcoming graphic design and discography pages */
 @layer components {
 	.gallery {
 		@apply flex flex-row overflow-y-visible overflow-x-scroll items-center snap-x snap-mandatory no-scrollbars -my-8 py-16 px-[5vw] gap-[5vw] md:gap-8 [&>*]:shrink-0 [&>*]:snap-center [&>*]:block [&>*]:rounded [&>*]:shadow-xl [&>*]:max-h-[40vh] sm:[&>*]:max-h-[50vh] [&>*]:max-w-[90%];
@@ -53,6 +58,7 @@ body {
 	}
 }
 
+/* Custom classes to tailwinds */
 @layer utilities {
 	.h2 {
 		@apply text-lg uppercase font-semibold tracking-widest mb-4;
@@ -76,6 +82,8 @@ body {
 	}
 }
 
+/* AHEAD: Custom classes for displaying coding projects */
+/* container for each project; the hover conditions make sure that the title and logos will be visible while hovering, and blurs/dims/opaques the picture */
 .container {
 	position: relative;
 	text-align: center;
@@ -99,33 +107,29 @@ body {
 	opacity: 1;
 }
 
+/* Placement for the logo */
 .github-logo {
-	font-size: 25px;
-	font-weight: bold;
 	position: absolute;
 	top: 50%;
 	left: 40%;
 	transform: translate(-50%, -50%);
-	opacity: 0;
+	opacity: 0; /* Make sure the logo is hidden before hovering */
 }
 
+/* Make sure the logo is visible when hovering */
 .github-logo:hover {
 	opacity: 1;
 }
 
-
+/* placement and sizing for the image. */
 .project-image {
 	position: relative;
 	width: 425px;
 	height: 315px;
-	border: 3px solid #fefbec;
 	margin: 10px;
 }
 
-.project-image:hover {
-	filter: blur(1px) brightness(60%);
-}
-
+/* Placement and sizing for the title */
 .project-title {
 	font-size: 25px;
 	font-weight: bold;
@@ -133,27 +137,24 @@ body {
 	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	opacity: 0;
+	opacity: 0; /* Make sure the logo is hidden before hovering */
 }
 
+/* Make sure the title is visible when hovering */
 .project-title:hover {
 	opacity: 1;
 }
 
-.project-title:hover ~ .project-image {
-	filter: blur(1px) brightness(60%);
-}
-
+/* Placement for the logo */
 .website-logo {
-	font-size: 25px;
-	font-weight: bold;
 	position: absolute;
 	top: 50%;
 	left: 60%;
 	transform: translate(-50%, -50%);
-	opacity: 0;
+	opacity: 0; /* Make sure the logo is hidden before hovering */
 }
 
+/* Make sure the logo is visible when hovering */
 .website-logo:hover {
 	opacity: 1;
 }

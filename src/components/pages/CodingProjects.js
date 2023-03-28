@@ -1,4 +1,5 @@
 import React from "react";
+// Importing components and images we need for this page.
 import Project from "../codingProjectsComponents/Project";
 import bookShare from "./../../assets/images/bookShare.gif";
 import cocktailSearch from "./../../assets/images/cocktailSearch.png";
@@ -10,9 +11,11 @@ import weatherDashboard from "./../../assets/images/weatherDashboard.png";
 const CodingProjects = () => {
   return (
     <section id="portfolio" className="p-10">
+      {/* This page will be animated upon load */}
       <div className="animate-enter">
         <h1 class="text-biggie lowercase text-center">Coding Projects</h1>
         <div className="flex flex-wrap justify-center m-[3vh] mr-[10vw] sm:mr-[4vw]">
+          {/* The Project function takes the props link, imgLink, githubLink, and projectTitle and generates a card for each of them. */}
           <Project link="https://bookclub-project-two.herokuapp.com/" imgLink={bookShare} githubLink="https://github.com/Y-M-C-J/bookclub-project-two" projectTitle="BookShare" />
           <Project link="https://dork-diaries.github.io/API-team-project/" imgLink={cocktailSearch} githubLink="https://github.com/dork-diaries/API-team-project" projectTitle="Cocktails & Dreams" />
           <Project link="https://tech-blog-clj.herokuapp.com/" imgLink={techBlog} githubLink="https://github.com/cadienlake/tech_blog_clj" projectTitle="The TechBlog" />
