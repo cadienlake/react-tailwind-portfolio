@@ -12,11 +12,16 @@ module.exports = {
       },
       animation: {
         enter: "enter 0.4s",
+        wiggle: "wiggle 1s ease-in-out infinite",
       },
       keyframes: {
         enter: {
           "0%": { transform: "scale(0.2)" },
           "100%": { transform: "scale(1)" },
+        },
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-1deg)" },
+          "50%": { transform: "rotate(1deg)" },
         },
       },
     },

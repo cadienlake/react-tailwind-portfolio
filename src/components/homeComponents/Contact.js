@@ -4,7 +4,7 @@ import { Mail, GitHub, Instagram } from "react-feather";
 
 function Contact() {
     return (
-        <div className="px-[5vw] mb-[5vh]">
+        <div className="px-[5vw] mb-[5vh] items-center flex flex-col sm:block">
         <h3 class="h3">Contact</h3>
         <div className="flex gap-2 items-center">
           <span>
