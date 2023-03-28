@@ -14,7 +14,7 @@ This is a personal portfolio website, created with React. It showcases a number 
 -Feathers\
 -Animation\
 -CSS\
--HTML\
+-HTML
 
 ## Screenshot
 
