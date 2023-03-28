@@ -6,13 +6,13 @@ function Nav() {
     <nav>
       <div className="text-biggie lowercase -indent-4 ml-4 px-[5vw] my-[5vh] leading-tight">
         <ul className="space-y-3">
-          <li>
+          <li className="hover:indent-1">
             <Link to="/about">About Me</Link>
           </li>
-          <li>
+          <li className="hover:indent-1">
             <Link to="/projects">Coding Projects</Link>
           </li>
-          <li>
+          <li className="hover:indent-1">
             <Link to="https://www.discogs.com/artist/4364774-Cadien-Lake-James">Discography</Link>
           </li>
           <li className="flex flex-initial items-center space-x-8">

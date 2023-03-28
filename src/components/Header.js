@@ -21,7 +21,6 @@ function Header() {
         </div>
         <div className="flex items-center pl-[10vw] opacity-60">{location.pathname !== "/" ? "" : <h1 className="lowercase relative top-px justify-self-end">Songwriter, Producer, Graphic Designer & Web Developer</h1>}</div>
       </div>
-      {/* <div className="lowercase">Musician & Web Developer</div> */}
     </div>
   );
 }

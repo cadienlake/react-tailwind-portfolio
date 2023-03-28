@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function About() {
   return (
     <div class="animate-enter">
-      <h1 class="text-biggie lowercase -indent-4 text-center">About Me</h1>
+      <h1 class="text-biggie lowercase  text-center">About Me</h1>
       <div className="p-[3vw] flex flex-col items-center">
         <div className="mb-[3vh]">
             <p>Howdy! My name is Cadien. I'm a musician born and bred in Chicago.</p>
