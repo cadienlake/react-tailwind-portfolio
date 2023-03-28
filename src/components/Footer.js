@@ -8,7 +8,7 @@ function Footer() {
         <div>Updated</div>
         <div>
           <span>© 2021 Cadien Lake Jack Henry James | </span>
-          {location.pathname !== "/react-tailwind-portfolio/" ? <Link to="/" className="underline">Home</Link> : "All Rights Reserved"}
+          {location.pathname !== "/" ? <Link to="/" className="underline">Home</Link> : "All Rights Reserved"}
         </div>
     </footer>
   );

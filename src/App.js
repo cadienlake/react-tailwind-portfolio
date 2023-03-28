@@ -12,9 +12,9 @@ function App() {
         <Header />
         <div className="grow flex flex-col justify-evenly">
           <Routes>
-            <Route path="/react-tailwind-portfolio/" element={<Home />} />
-            <Route path="/react-tailwind-portfolio/about" element={<About />} />
-            <Route path="/react-tailwind-portfolio/projects" element={<CodingProjects />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<CodingProjects />} />
           </Routes>
         </div>
         <Footer />
