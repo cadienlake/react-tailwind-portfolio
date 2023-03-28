@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-tailwind-porfolio/static/css/main.ef18cf88.css",
-    "main.js": "/react-tailwind-porfolio/static/js/main.3bef905c.js",
-    "static/media/portrait.jpg": "/react-tailwind-porfolio/static/media/portrait.092fad2b7677d0245eb9.jpg",
-    "static/media/bookShare.gif": "/react-tailwind-porfolio/static/media/bookShare.af208880ddd00033eff3.gif",
-    "static/media/portrait2.jpg": "/react-tailwind-porfolio/static/media/portrait2.2a614caf58bc1b133b05.jpg",
-    "static/media/cocktailSearch.png": "/react-tailwind-porfolio/static/media/cocktailSearch.5a20e05400819faf78db.png",
-    "static/media/weatherDashboard.png": "/react-tailwind-porfolio/static/media/weatherDashboard.58477c827705df3b5d6b.png",
-    "static/media/ecommerceBackend.png": "/react-tailwind-porfolio/static/media/ecommerceBackend.e1d0e3d4e4c5da0f8cd0.png",
-    "static/media/techBlog.png": "/react-tailwind-porfolio/static/media/techBlog.61c82bf3e5dce5b1b0a5.png",
-    "static/media/passwordGenerator.png": "/react-tailwind-porfolio/static/media/passwordGenerator.ad5b28eee39357a3aa1e.png",
-    "static/media/tape-machine.svg": "/react-tailwind-porfolio/static/media/tape-machine.19f836fe73cb81eb32d4da359842424e.svg",
-    "index.html": "/react-tailwind-porfolio/index.html",
-    "main.ef18cf88.css.map": "/react-tailwind-porfolio/static/css/main.ef18cf88.css.map",
-    "main.3bef905c.js.map": "/react-tailwind-porfolio/static/js/main.3bef905c.js.map"
+    "main.css": "/react-tailwind-portfolio/static/css/main.ef18cf88.css",
+    "main.js": "/react-tailwind-portfolio/static/js/main.0e76a290.js",
+    "static/media/portrait.jpg": "/react-tailwind-portfolio/static/media/portrait.092fad2b7677d0245eb9.jpg",
+    "static/media/bookShare.gif": "/react-tailwind-portfolio/static/media/bookShare.af208880ddd00033eff3.gif",
+    "static/media/portrait2.jpg": "/react-tailwind-portfolio/static/media/portrait2.2a614caf58bc1b133b05.jpg",
+    "static/media/cocktailSearch.png": "/react-tailwind-portfolio/static/media/cocktailSearch.5a20e05400819faf78db.png",
+    "static/media/weatherDashboard.png": "/react-tailwind-portfolio/static/media/weatherDashboard.58477c827705df3b5d6b.png",
+    "static/media/ecommerceBackend.png": "/react-tailwind-portfolio/static/media/ecommerceBackend.e1d0e3d4e4c5da0f8cd0.png",
+    "static/media/techBlog.png": "/react-tailwind-portfolio/static/media/techBlog.61c82bf3e5dce5b1b0a5.png",
+    "static/media/passwordGenerator.png": "/react-tailwind-portfolio/static/media/passwordGenerator.ad5b28eee39357a3aa1e.png",
+    "static/media/tape-machine.svg": "/react-tailwind-portfolio/static/media/tape-machine.19f836fe73cb81eb32d4da359842424e.svg",
+    "index.html": "/react-tailwind-portfolio/index.html",
+    "main.ef18cf88.css.map": "/react-tailwind-portfolio/static/css/main.ef18cf88.css.map",
+    "main.0e76a290.js.map": "/react-tailwind-portfolio/static/js/main.0e76a290.js.map"
   },
   "entrypoints": [
     "static/css/main.ef18cf88.css",
-    "static/js/main.3bef905c.js"
+    "static/js/main.0e76a290.js"
   ]
 }
