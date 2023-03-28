@@ -4,17 +4,17 @@ This is a personal portfolio website, created with React. It showcases a number 
 
 ## Skills
 
--React
--Tailwinds CSS
--Router
--useLocation
--Link
--Conditional Statements
--Responsive Design
--Feathers
--Animation
--CSS
--HTML
+-React\
+-Tailwinds CSS\
+-Router\
+-useLocation\
+-Link\
+-Conditional Statements\
+-Responsive Design\
+-Feathers\
+-Animation\
+-CSS\
+-HTML\
 
 ## Screenshot
 
