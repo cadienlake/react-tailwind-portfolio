@@ -11,14 +11,14 @@ function App() {
     <Router basename="/react-tailwind-portfolio">
       <div className="min-h-screen flex flex-col">
         <Header />
-        <div className="grow flex flex-col justify-evenly">
+        <div className="grow flex flex-col sm:justify-evenly max-w-sm sm:max-w-full">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<CodingProjects />} />
           </Routes>
         </div>
-        <Footer />
+          <Footer />
       </div>
     </Router>
   );

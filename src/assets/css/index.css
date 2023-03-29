@@ -35,7 +35,7 @@ body {
 	
 	/* apply link styling for a tags */
 	p a {
-		@apply underline decoration-sky-500 decoration-2 underline-offset-2;
+		@apply underline decoration-blue-700 decoration-2 underline-offset-2 uppercase tracking-tight font-semibold hover:text-blue-700;
 	}
 	
 	blockquote {

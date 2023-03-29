@@ -12,7 +12,7 @@ const CodingProjects = () => {
   return (
     <section id="portfolio" className="p-10">
       {/* This page will be animated upon load */}
-      <div className="animate-enter">
+      <div className="animate-enter flex flex-col justify-evenly">
         <h1 class="text-biggie lowercase text-center">Coding Projects</h1>
         <div className="flex flex-wrap justify-center gap-10">
           {/* The Project function takes the props link, imgLink, githubLink, and projectTitle and generates a card for each of them. */}
