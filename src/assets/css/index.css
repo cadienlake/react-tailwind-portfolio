@@ -88,6 +88,10 @@ body {
 	position: relative;
 	text-align: center;
 	color: white;
+	margin-top: 10px;
+	border: black;
+	border-radius: 10px;
+	border-width: thick;
 }
 
 .container:hover .github-logo {
@@ -124,9 +128,10 @@ body {
 /* placement and sizing for the image. */
 .project-image {
 	position: relative;
-	width: 425px;
-	height: 315px;
-	margin: 10px;
+	max-width: 300px;
+	border: black;
+	border-radius: 10px;
+	border-width: thick;
 }
 
 /* Placement and sizing for the title */

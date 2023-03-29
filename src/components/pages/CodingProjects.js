@@ -14,7 +14,7 @@ const CodingProjects = () => {
       {/* This page will be animated upon load */}
       <div className="animate-enter">
         <h1 class="text-biggie lowercase text-center">Coding Projects</h1>
-        <div className="flex flex-wrap justify-center m-[3vh] mr-[10vw] sm:mr-[4vw]">
+        <div className="flex flex-wrap justify-center gap-10">
           {/* The Project function takes the props link, imgLink, githubLink, and projectTitle and generates a card for each of them. */}
           <Project link="https://bookclub-project-two.herokuapp.com/" imgLink={bookShare} githubLink="https://github.com/Y-M-C-J/bookclub-project-two" projectTitle="BookShare" />
           <Project link="https://dork-diaries.github.io/API-team-project/" imgLink={cocktailSearch} githubLink="https://github.com/dork-diaries/API-team-project" projectTitle="Cocktails & Dreams" />
