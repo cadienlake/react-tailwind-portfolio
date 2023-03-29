@@ -21,7 +21,7 @@ function Nav() {
             <Link to="#" className="line-through decoration-red-500">
               Graphic Design
             </Link>
-            <span class="text-sm opacity-60">in progress</span>
+            <span class="text-sm opacity-60 lowercase">in progress</span>
           </li>
         </ul>
       </div>
