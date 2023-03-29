@@ -24,6 +24,9 @@ module.exports = {
           "50%": { transform: "rotate(1deg)" },
         },
       },
+      screens: {
+        middle: "830px",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
