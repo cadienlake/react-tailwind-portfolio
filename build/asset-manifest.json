@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-tailwind-portfolio/static/css/main.3cd4b15d.css",
-    "main.js": "/react-tailwind-portfolio/static/js/main.c999113c.js",
+    "main.css": "/react-tailwind-portfolio/static/css/main.40f03604.css",
+    "main.js": "/react-tailwind-portfolio/static/js/main.1f82dfa6.js",
     "static/media/portrait.jpg": "/react-tailwind-portfolio/static/media/portrait.092fad2b7677d0245eb9.jpg",
     "static/media/bookShare.gif": "/react-tailwind-portfolio/static/media/bookShare.af208880ddd00033eff3.gif",
     "static/media/portrait2.jpg": "/react-tailwind-portfolio/static/media/portrait2.2a614caf58bc1b133b05.jpg",
@@ -11,11 +11,11 @@
     "static/media/techBlog.png": "/react-tailwind-portfolio/static/media/techBlog.61c82bf3e5dce5b1b0a5.png",
     "static/media/passwordGenerator.png": "/react-tailwind-portfolio/static/media/passwordGenerator.ad5b28eee39357a3aa1e.png",
     "index.html": "/react-tailwind-portfolio/index.html",
-    "main.3cd4b15d.css.map": "/react-tailwind-portfolio/static/css/main.3cd4b15d.css.map",
-    "main.c999113c.js.map": "/react-tailwind-portfolio/static/js/main.c999113c.js.map"
+    "main.40f03604.css.map": "/react-tailwind-portfolio/static/css/main.40f03604.css.map",
+    "main.1f82dfa6.js.map": "/react-tailwind-portfolio/static/js/main.1f82dfa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cd4b15d.css",
-    "static/js/main.c999113c.js"
+    "static/css/main.40f03604.css",
+    "static/js/main.1f82dfa6.js"
   ]
 }

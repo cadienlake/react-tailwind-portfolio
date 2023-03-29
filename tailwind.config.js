@@ -13,6 +13,7 @@ module.exports = {
       animation: {
         enter: "enter 0.4s",
         wiggle: "wiggle 1s ease-in-out infinite",
+        backwards: "backwards 1s linear infinite",
       },
       keyframes: {
         enter: {
@@ -22,6 +23,10 @@ module.exports = {
         wiggle: {
           "0%, 100%": { transform: "rotate(-1deg)" },
           "50%": { transform: "rotate(1deg)" },
+        },
+        backwards: {
+          "0%": { transform: "rotate(360deg)" },
+          "100%": { transform: "rotate(0deg)" },
         },
       },
       screens: {
