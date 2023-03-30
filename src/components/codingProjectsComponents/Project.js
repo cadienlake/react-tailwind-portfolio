@@ -1,7 +1,6 @@
 import React from "react";
 // Import the icons we need for this component.
 import { GitHub, Globe } from "react-feather";
-import BookShare from "./../../assets/images/bookShare.gif";
 
 // Project function takes the props link, imgLink, githubLink, and projectTitle and generates a card for each of them.
 const Project = (props) => {
