@@ -9,7 +9,6 @@ const Project = (props) => {
     <div>
       <div className="container">
         <img src={props.imgLink} className="project-image rounded-xl" alt="Project Preview"></img>
-        <img src={BookShare} className="project-image rounded-xl" alt="Project Preview"></img>
         <h1 className="project-title">{props.projectTitle}</h1>
         <a className="github-logo" href={props.githubLink}>
           <GitHub className="w-50 h-50 hover:fill-red-500" />
