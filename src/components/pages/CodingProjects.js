@@ -1,7 +1,7 @@
 import React from "react";
 // Importing components and images we need for this page.
 import Project from "../codingProjectsComponents/Project";
-import bookShare from "../../assets/images/bookShare.gif";
+import bookShare from "./../../assets/images/bookShare.gif";
 import cocktailSearch from "./../../assets/images/cocktailSearch.png";
 import ecommerceBackend from "./../../assets/images/ecommerceBackend.png";
 import passwordGenerator from "./../../assets/images/passwordGenerator.png";
