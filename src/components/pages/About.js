@@ -20,7 +20,7 @@ function About() {
         <p>
           You may have heard of the band I've been in since 2010, <Link to="https://www.twinpeaksdudes.com">Twin Peaks</Link>. I'm currently working on a solo record under the name Lake, and hope to share it this year.
         </p>
-        <p> I'm also a burgeoning web developer, and will be recieving my certificate in Full Stack Development from Northwestern University in April 2023. Check in on this website for updates!</p>
+        <p> I'm also a burgeoning web developer, and received a certificate in Full Stack Development from Northwestern University in April 2023. Check in on this website for updates!</p>
       </div>
     </div>
   );
