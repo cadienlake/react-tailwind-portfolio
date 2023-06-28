@@ -7,7 +7,7 @@ function About() {
   return (
     // This div will be animated when the page loads.
     <div class="animate-enter">
-      <h1 class="text-biggie lowercase  text-center">About Me</h1>
+      <h1 class="text-biggie lowercase text-center">About Me</h1>
       <div className="p-[3vw] flex flex-col items-center">
         <div className="mb-[3vh]">
           <p>Howdy! My name is Cadien. I'm a musician born and bred in Chicago.</p>
